@@ -71,16 +71,6 @@
 {"key":"芒果","name":"🐼熊猫┃芒芒","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/mangguo.js"},
 {"key":"爱奇异","name":"🐼熊猫┃奇异","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/aiqiyi.js"},
 {"key":"优酷","name":"🐼熊猫┃游酷","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/youku.js"},
-      {
-            "key": "腾讯资源",
-            "name": "腾讯资源┃采集┃",
-            "type": 1,
-            "api": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/qq/?at/xml/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-        "categories":["电影","国产剧","战争片","记录片","动漫"]
-        },
     {
       "key": "车妹",
       "name": "🐼熊猫┃车妹",
