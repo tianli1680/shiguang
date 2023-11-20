@@ -72,6 +72,13 @@
 {"key":"爱奇异","name":"🐼熊猫┃奇异","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/aiqiyi.js"},
 {"key":"优酷","name":"🐼熊猫┃游酷","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/youku.js"},
     {
+      "key": "腾讯",
+      "name": "🐼熊猫┃企鹅",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/tengxun.js"
+    },
+    {
       "key": "车妹",
       "name": "🐼熊猫┃车妹",
       "type": 3,
