@@ -4,7 +4,7 @@
     "sites": [
         {
             "key": "豆豆",
-            "name": "🐼┃豆瓣┃【关注公众号：熊猫不叫猫】🐼",
+            "name": "📚拾光|豆瓣┃【接口纯属网络整合】🐼",
             "type": 3,
             "api": "csp_DouDou",
             "searchable": 0,
@@ -13,7 +13,7 @@
         },
                 {
       "key": "csp_KungFu404",
-      "name": "🐼熊猫|阿里设置",
+      "name": "📚拾光|阿里设置",
       "type": 3,
       "api": "csp_KungFu404",
       "searchable": 1,
@@ -23,7 +23,7 @@
     },
 		                {
             "key": "csp_woggcli",
-            "name": "🐼熊猫┃玩偶T4",
+            "name": "📚拾光┃玩偶T4",
             "type": 4,
             "api": "http://home.jundie.top:9520/spider/csp_Wogg?sort=原画,蓝光,超清,高清&token=94fd5ab297e24a769bb762375118ec47",
             "searchable": 1,
@@ -32,7 +32,7 @@
         },
 		    {
       "key": "玩偶哥哥",
-      "name": "🐼熊猫┃玩偶4K",
+      "name": "📚拾光┃玩偶4K",
       "type": 3,
       "api": "csp_WoGG",
       "searchable": 1,
@@ -40,9 +40,9 @@
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://api.wogg.xyz/$$$弹"
     },
-    {"key":"姐姐","name":"🐼熊猫┃玩偶姐姐┃app","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://dytt996.com/api.php/app/"},
+    {"key":"姐姐","name":"📚拾光┃玩偶姐姐┃app","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://dytt996.com/api.php/app/"},
    {    "key": "蜗牛弹幕",
-                "name": "🐼熊猫┃蜗牛弹幕",
+                "name": "📚拾光┃蜗牛弹幕",
                 "type": 3,
                 "api": "csp_XBPQ",
                 "ext": {
@@ -57,7 +57,7 @@
         },
     {
       "key": "csp_XBPQ_vstv",
-      "name": "🐼熊猫┃VS短剧",
+      "name": "📚拾光┃VS短剧",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -68,19 +68,19 @@
         "分类": "短剧$5#电视剧$2#电影$1#动漫$4#综艺$3"
       }
     },
-{"key":"芒果","name":"🐼熊猫┃芒芒","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/mangguo.js"},
-{"key":"爱奇异","name":"🐼熊猫┃奇异","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/aiqiyi.js"},
-{"key":"优酷","name":"🐼熊猫┃游酷","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/youku.js"},
+{"key":"芒果","name":"📚拾光┃芒芒","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/mangguo.js"},
+{"key":"爱奇异","name":"📚拾光┃奇异","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/aiqiyi.js"},
+{"key":"优酷","name":"📚拾光┃游酷","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/youku.js"},
     {
       "key": "腾讯",
-      "name": "🐼熊猫┃企鹅",
+      "name": "📚拾光┃企鹅",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/tengxun.js"
     },
     {
       "key": "车妹",
-      "name": "🐼熊猫┃车妹",
+      "name": "📚拾光┃车妹",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -90,14 +90,14 @@
     },
 	    {
       "key": "drpy_js_两个BT",
-      "name": "🐼熊猫┃BT",
+      "name": "📚拾光┃BT",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/两个BT.js"
     },
 	    {
       "key": "南瓜",
-      "name": "🐼熊猫┃南瓜",
+      "name": "📚拾光┃南瓜",
       "type": 3,
       "api": "csp_NanGua",
       "playerType": 2,
@@ -107,7 +107,7 @@
     },
     {
       "key": "csp_XBPQ_haoxi",
-      "name": "🐼熊猫┃好戏",
+      "name": "📚拾光┃好戏",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -117,7 +117,7 @@
     },  
 	{
             "key": "贱贱",
-            "name": "🐼熊猫┃荐片",
+            "name": "📚拾光┃荐片",
             "type": 3,
             "searchable": 1,
             "quickSearch": 1,
@@ -128,7 +128,7 @@
         },
 	            {
             "key": "csp_Nmys",
-            "name": "🐼熊猫┃农民",
+            "name": "📚拾光┃农民",
             "type": 3,
             "api": "csp_Nmys",
             "searchable": 1,
@@ -138,7 +138,7 @@
         },
 	    {
       "key": "csp_Bttoo",
-      "name": "🐼熊猫┃比特",
+      "name": "📚拾光┃比特",
       "type": 3,
       "api": "csp_Bttwoo",
       "searchable": 1,
@@ -147,7 +147,7 @@
     },
 	    {
       "key": "花猫影视",
-      "name": "🐼熊猫┃花猫",
+      "name": "📚拾光┃花猫",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -157,7 +157,7 @@
     },
         {
             "key": "77",
-            "name": "🐼熊猫┃七七",
+            "name": "📚拾光┃七七",
             "type": 3,
             "api": "csp_Kunyu77",
             "searchable": 1,
@@ -166,7 +166,7 @@
         },
         {
             "key": "橘子",
-            "name": "🐼熊猫┃橘子",
+            "name": "📚拾光┃橘子",
             "type": 3,
             "api": "csp_AppMao",
             "searchable": 1,
@@ -176,14 +176,14 @@
         },
 		    {
       "key": "畅梦",
-      "name": "🐼熊猫┃畅梦",
+      "name": "📚拾光┃畅梦",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/changmeng.js"
     },
 	        {
             "key": "Auete",
-            "name": "🐼熊猫┃奥特",
+            "name": "📚拾光┃奥特",
             "type": 3,
             "api": "csp_Auete",
             "searchable": 1,
@@ -193,7 +193,7 @@
         },
 	    {
       "key": "玉米",
-      "name": "🐼熊猫┃玉米",
+      "name": "📚拾光┃玉米",
       "type": 0,
       "api": "http://124.222.116.5/macos/api.php/provide/vod/at/xml/",
       "playUrl": "json:http://110.42.3.71:5000/api/jiexi/common?Key=scR2SCxYQGqNWKLltR&url=",
@@ -203,7 +203,7 @@
     },
 		    {
       "key": "看了么",
-      "name": "🐼熊猫┃小鼠",
+      "name": "📚拾光┃小鼠",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -213,7 +213,7 @@
     },
 	    {
       "key": "zxzj",
-      "name": "🐼熊猫┃外剧",
+      "name": "📚拾光┃外剧",
       "type": 3,
       "api": "csp_Zxzj",
       "searchable": 1,
@@ -223,7 +223,7 @@
     },
 	        {
       "key": "lurenjia",
-      "name": "🐼熊猫┃路人",
+      "name": "📚拾光┃路人",
       "type": 1,
       "api": "http://dytt996.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -233,7 +233,7 @@
     },
         {
             "key": "一起看 ",
-            "name": "🐼熊猫┃一起看",
+            "name": "📚拾光┃一起看",
             "type": 3,
             "api": "csp_YQKan",
             "searchable": 1,
@@ -242,7 +242,7 @@
         },
                 {
             "key": "索尼资源",
-            "name": "🐼熊猫┃索尼",
+            "name": "📚拾光┃索尼",
             "type": 1,
             "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/",
             "categories": [
@@ -285,7 +285,7 @@
         },
         {
             "key": "Cokemv",
-            "name": "🐼熊猫┃可乐",
+            "name": "📚拾光┃可乐",
             "type": 3,
             "api": "csp_Cokemv",
             "playerType": 2,
@@ -295,7 +295,7 @@
         },
         {
             "key": "csp_SP33",
-            "name": "🐼熊猫┃三三",
+            "name": "📚拾光┃三三",
             "type": 3,
             "api": "csp_SP33",
             "searchable": 1,
@@ -305,7 +305,7 @@
         },
     {
       "key": "百度资源",
-      "name": "🐼熊猫┃百度",
+      "name": "📚拾光┃百度",
       "type": 1,
       "api": "https://api.apibdzy.com/api.php/provide/vod/",
       "searchable": 1,
@@ -319,7 +319,7 @@
     },
         {
             "key": "88js",
-            "name": "🐼熊猫┃88看球",
+            "name": "📚拾光┃88看球",
             "type": 3,
             "api": "./api/drpy2.min.js",
             "ext": "./js/88看球.js",
@@ -333,7 +333,7 @@
         },
         {
             "key": "csp_qiumi",
-            "name": "🐼熊猫┃球迷直播",
+            "name": "📚拾光┃球迷直播",
             "type": 3,
             "api": "./api/drpy2.min.js",
             "ext": "./js/jrk.js",
@@ -347,14 +347,14 @@
         },
 			                        {
       "key": "drpy_js_短剧网",
-      "name": "🐼熊猫┃短剧网",
+      "name": "📚拾光┃短剧网",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/短剧网.js"
     },
     {
       "key": "戏曲杂苑",
-      "name": "🐼熊猫┃戏曲网",
+      "name": "📚拾光┃戏曲网",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -364,7 +364,7 @@
     },
     {
       "key": "相声小品",
-      "name": "🐼熊猫┃相声小品",
+      "name": "📚拾光┃相声小品",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -374,7 +374,7 @@
     },
         {
             "key": "MV_vod",
-            "name": "🐼熊猫┃20万MV",
+            "name": "📚拾光┃20万MV",
             "type": 1,
             "api": "https://mv.wogg.link/mv/vod",
             "style": {
@@ -386,7 +386,7 @@
         },
         {
             "key": "酷奇js",
-            "name": "🐼熊猫┃酷奇MV",
+            "name": "📚拾光┃酷奇MV",
             "type": 3,
             "api": "./api/drpy2.min.js",
             "ext": "./js/酷奇MV.js",
@@ -400,7 +400,7 @@
         },
         {
             "key": "YiSo",
-            "name": "🐼熊猫┃易搜",
+            "name": "📚拾光┃易搜",
             "type": 3,
             "api": "csp_YiSo",
             "searchable": 1,
@@ -410,7 +410,7 @@
         },
         {
             "key": "PanSou",
-            "name": "🐼熊猫┃盘搜",
+            "name": "📚拾光┃盘搜",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
@@ -420,7 +420,7 @@
         },
         {
             "key": "UpYun",
-            "name": "🐼熊猫┃Up搜",
+            "name": "📚拾光┃Up搜",
             "type": 3,
             "api": "csp_UpYun",
             "searchable": 1,
@@ -430,7 +430,7 @@
         },
         {
             "key": "七夜",
-            "name": "🐼熊猫┃七夜",
+            "name": "📚拾光┃七夜",
             "type": 3,
             "api": "csp_Dovx",
             "searchable": 1,
@@ -440,7 +440,7 @@
         },
         {
             "key": "Bili",
-            "name": "🐼熊猫┃哔哩合集",
+            "name": "📚拾光┃哔哩合集",
             "type": 3,
             "api": "csp_Bili",
             "style": {
@@ -454,7 +454,7 @@
         },
         {
             "key": "dr_兔小贝",
-            "name": "🐼熊猫┃教育启蒙",
+            "name": "📚拾光┃教育启蒙",
             "type": 3,
             "api": "./api/drpy2.min.js",
             "ext": "./js/兔小贝.js",
@@ -468,7 +468,7 @@
         },
         {
             "key": "少儿教育",
-            "name": "🐼熊猫┃教育儿童",
+            "name": "📚拾光┃教育儿童",
             "type": 3,
             "api": "csp_Bili",
             "style": {
@@ -482,7 +482,7 @@
         },
         {
             "key": "小学课堂",
-            "name": "🐼熊猫┃教育小学",
+            "name": "📚拾光┃教育小学",
             "type": 3,
             "api": "csp_Bili",
             "style": {
@@ -496,7 +496,7 @@
         },
         {
             "key": "初中课堂",
-            "name": "🐼熊猫┃教育初中",
+            "name": "📚拾光┃教育初中",
             "type": 3,
             "api": "csp_Bili",
             "style": {
@@ -510,7 +510,7 @@
         },
         {
             "key": "高中教育",
-            "name": "🐼熊猫┃教育高中",
+            "name": "📚拾光┃教育高中",
             "type": 3,
             "api": "csp_Bili",
             "style": {
