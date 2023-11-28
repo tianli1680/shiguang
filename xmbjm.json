@@ -546,23 +546,21 @@
             "type": 3,
             "url": "Demo"
         },
+    {
+      "name": "杰森",
+      "type": 0,
+      "url": "https://jx.jsonplayer.com/player/?url="
+    },
 	{
       "name": "777",
       "type": 0,
       "url": "https://jx.777jiexi.com/player/?url="
     },
     {
-      "name": "杰森",
-      "type": 0,
-      "url": "https://jx.jsonplayer.com/player/?url="
-    },
-    {
       "name": "战狼",
       "type": 0,
       "url": "https://jx.zhanlangbu.com/?url="
     },	
-
-{"name":"LR","type":1,"url":"https://jx.xmflv.com/?url="},
 {
             "name": "免费分享",
             "type": 0,
