@@ -5,7 +5,8 @@
         {
             "name": "live",
             "type": 0,
-            "url": "./lives/live.txt",
+            //"url": "./lives/live.txt",
+	      "url": "https://codeberg.org/tianli1680/shiguanglive/raw/branch/main/xinlive.json"
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
         }
     ],
