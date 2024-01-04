@@ -68,9 +68,9 @@ CCTV5+,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/32212257
 CCTV5+,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225761/1.m3u8
 
 CCTV6,http://111.225.93.57:8800/hls/6/index.m3u8
-CCTV-6,http://111.225.92.130:8800/hls/6/index.m3u8
+CCTV6,http://111.225.92.130:8800/hls/6/index.m3u8
 CCTV6,http://wo.xiang.lai.ge.bi.jiao.chang.de.yu.ming.wan.wan.jie.xi.bu.zhi.dao.ke.bu.ke.xing.hk3.20212021.tk.cdn.cloudflare.net/daili/liugongzi.php?id=CCTV-6H265_4000
-CCTV-6,http://180.97.247.27/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel6/index.m3u8
+CCTV6,http://180.97.247.27/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel6/index.m3u8
 CCTV6,http://101.33.17.11/liveplay-kk.rtxapp.com/live/program/live/cctv6hd8m/8000000/mnf.m3u8
 CCTV6,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226393/index.m3u8
 CCTV6,http://111.20.40.167/PLTV/88888893/224/3221226393/index.m3u8
