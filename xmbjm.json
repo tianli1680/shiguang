@@ -79,7 +79,7 @@
 {"key":"芒果","name":"📚拾光┃芒芒","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/mangguo.js"},
 {"key":"爱奇异","name":"📚拾光┃奇异","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/aiqiyi.js"},
 {"key":"优酷","name":"📚拾光┃游酷","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/youku.js"},
-{"key":"555dy_open","name":"影视 | 555","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/555dy_open.js"},
+//{"key":"555dy_open","name":"影视 | 555","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/555dy_open.js"},
     {
       "key": "腾讯",
       "name": "📚拾光┃企鹅",
