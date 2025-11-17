@@ -11,7 +11,7 @@
         }
     ],
   
-  "site": [
+  "sites": [
     "iqiyizyapi.com": {
       "name": "🎬-爱奇艺-",
       "api": "https://move.iptvlive.icu/?url=https://iqiyizyapi.com/api.php/provide/vod",
