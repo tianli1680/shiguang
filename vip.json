@@ -10,604 +10,405 @@
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
         }
     ],
-    "sites": [
-        {
-            "key": "豆豆",
-            "name": "📚拾光┃豆瓣📚",
-            "type": 3,
-            "api": "csp_DouDou",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0
-        },
-                {
-      "key": "csp_KungFu404",
-      "name": "📚拾光|阿里设置",
-      "type": 3,
-      "api": "csp_KungFu404",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 0,
-      "jar": "./alibaba.jar"
+  
+  "site": [
+    "iqiyizyapi.com": {
+      "name": "🎬-爱奇艺-",
+      "api": "https://move.iptvlive.icu/?url=https://iqiyizyapi.com/api.php/provide/vod",
+      "detail": "https://iqiyizyapi.com"
     },
-		                {
-            "key": "csp_woggcli",
-            "name": "📚拾光┃玩偶T4",
-            "type": 4,
-            "api": "http://home.jundie.top:9520/spider/csp_Wogg?sort=原画,蓝光,超清,高清&token=94fd5ab297e24a769bb762375118ec47",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-		    {
-      "key": "玩偶哥哥",
-      "name": "📚拾光┃玩偶4K",
-      "type": 3,
-      "api": "csp_WoGG",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+auto|4k|fhd$$$https://api.wogg.xyz/$$$弹"
+    "dbzy.tv": {
+      "name": "🎬豆瓣资源",
+      "api": "https://move.iptvlive.icu/?url=https://caiji.dbzy5.com/api.php/provide/vod",
+      "detail": "https://dbzy.tv"
     },
-    {"key":"姐姐","name":"📚拾光┃玩偶姐姐┃app","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://dytt996.com/api.php/app/"},
-   {    "key": "蜗牛弹幕",
-                "name": "📚拾光┃蜗牛弹幕",
-                "type": 3,
-                "api": "csp_XBPQ",
-                "ext": {
- "简介":"class=\"video-info-item video-info-content vod_content\">&&</span>",               
- "数组":"class=\"module-item-text\"&&class=\"loading\"",
-  "线路数组":"data-dropdown-value=&&</div>",
-   "线路标题":"<span>&&</small>[替换:</span><small>>>共]+集",        
- "副标题":" class=\"module-item-text\">&&</div>",   
- "分类":"电影$1#日韩剧$21#海外剧$2#动漫$20",   
-    "分类url":"https://v.wuxivlog.cn/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}.html"   
-        }
-        },
-    {
-      "key": "csp_XBPQ_vstv",
-      "name": "📚拾光┃VS短剧",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "分类url": "https://www.ytshengde.com/sanyisw/{cateId}-{area}-------{catePg}---{year}.html",
-        "分类": "短剧$5#电视剧$2#电影$1#动漫$4#综艺$3"
-      }
+    "tyyszy.com": {
+      "name": "🎬天涯影视",
+      "api": "https://move.iptvlive.icu/?url=https://tyyszy.com/api.php/provide/vod",
+      "detail": "https://tyyszy.com"
     },
-{"key":"芒果","name":"📚拾光┃芒芒","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/mangguo.js"},
-{"key":"爱奇异","name":"📚拾光┃奇异","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/aiqiyi.js"},
-{"key":"优酷","name":"📚拾光┃游酷","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/youku.js"},
-    {
-      "key": "腾讯",
-      "name": "📚拾光┃企鹅",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/tengxun.js"
+    "mtzy.me": {
+      "name": "🎬茅台资源",
+      "api": "https://move.iptvlive.icu/?url=https://caiji.maotaizy.cc/api.php/provide/vod",
+      "detail": "https://mtzy.me"
     },
-    {
-      "key": "车妹",
-      "name": "📚拾光┃车妹",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.gsjtlxy.top/xgapp.php/v3/"
+    "wolongzyw.com": {
+      "name": "🎬卧龙资源",
+      "api": "https://move.iptvlive.icu/?url=https://wolongzyw.com/api.php/provide/vod",
+      "detail": "https://wolongzyw.com"
     },
-   {
-      "key": "小姨",
-      "name": "📚拾光┃玩妹",
-      "type": 1,
-      "api": "http://1.ahailove.cn:23456/cj/api.php/provide/vod/",
-      "categories": [
-        "电影",
-        "电视剧",
-        "综艺",
-        "动漫"
-      ]
+    "ikunzy.com": {
+      "name": "🎬iKun资源",
+      "api": "https://move.iptvlive.icu/?url=https://ikunzyapi.com/api.php/provide/vod",
+      "detail": "https://ikunzy.com"
     },
-	    {
-      "key": "drpy_js_两个BT",
-      "name": "📚拾光┃BT",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/两个BT.js"
+    "lzizy.net": {
+      "name": "🎬量子影视",
+      "api": "https://move.iptvlive.icu/?url=https://cj.lziapi.com/api.php/provide/vod",
+      "detail": "https://lzizy.net"
     },
-	    {
-      "key": "南瓜",
-      "name": "📚拾光┃南瓜",
-      "type": 3,
-      "api": "csp_NanGua",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
+    "dyttzyapi.com": {
+      "name": "🎬电影天堂",
+      "api": "https://move.iptvlive.icu/?url=http://caiji.dyttzyapi.com/api.php/provide/vod",
+      "detail": "http://caiji.dyttzyapi.com"
     },
-    {
-      "key": "csp_XBPQ_haoxi",
-      "name": "📚拾光┃好戏",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/好戏影视.json"
-    },  
-	{
-            "key": "贱贱",
-            "name": "📚拾光┃荐片",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "playerType": "1",
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/jp.js"
-        },
-	            {
-            "key": "csp_Nmys",
-            "name": "📚拾光┃农民",
-            "type": 3,
-            "api": "csp_Nmys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "./json/nmys.json"
-        },
-	    {
-      "key": "csp_Bttoo",
-      "name": "📚拾光┃比特",
-      "type": 3,
-      "api": "csp_Bttwoo",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
+    "www.maoyanzy.com": {
+      "name": "🎬猫眼资源",
+      "api": "https://move.iptvlive.icu/?url=https://api.maoyanapi.top/api.php/provide/vod",
+      "detail": "https://www.maoyanzy.com"
     },
-	    {
-      "key": "花猫影视",
-      "name": "📚拾光┃花猫",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/huamao.json"
+    "cj.lzcaiji.com": {
+      "name": "🎬量子资源",
+      "api": "https://move.iptvlive.icu/?url=https://cj.lzcaiji.com/api.php/provide/vod",
+      "detail": "https://cj.lzcaiji.com"
     },
-        {
-            "key": "77",
-            "name": "📚拾光┃七七",
-            "type": 3,
-            "api": "csp_Kunyu77",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "橘子",
-            "name": "📚拾光┃橘子",
-            "type": 3,
-            "api": "csp_AppMao",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "FbjDcUxPqpfNr0QF4QvE6sExbcJUCYdIVisPtbeywENfScyc6nTW0F+D7rX5HCm9c3SL03FsmGsmXS04XZMlbxEVW4/ZgwONbnobxj8KxeRpXqDxCWghfAf9JSR025yi92eOKqE9HokX9QQnl1WsU21CR4+dlEMDEsADd1xFGiiGtsh0vqJFAf41Z7sYL00hBBNM3xJsYyXCuX4BrzNYpZRwmcnwnXIHe2MtwbsJf0IAs6yM+y/ub+niyxOc2YuPbc/VUS4DGPqzelIi6plLWFvZ8+j2xcvAgopZxZFhBkIYCIIC5Uec/JW8RgW9WV1SKntGcmcd5yjIpagsmpXymH3a+FKzHKMB3LvXmR6onijWkP0VpivFgVVfjWrik4Yr0ZjZxKFA0uPQvy9l9EjPMNrQIj0sZjnpv7JmoMO+HfQ+lqKhJrQFq4MooyyGv6yhNv12IOHay3A="
-        },
-		    {
-      "key": "畅梦",
-      "name": "📚拾光┃畅梦",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/changmeng.js"
+    "360zy.com": {
+      "name": "🎬360 资源",
+      "api": "https://move.iptvlive.icu/?url=https://360zy.com/api.php/provide/vod",
+      "detail": "https://360zy.com"
     },
-	        {
-            "key": "Auete",
-            "name": "📚拾光┃奥特",
-            "type": 3,
-            "api": "csp_Auete",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://haozhansou.com/"
-        },
-	    {
-      "key": "玉米",
-      "name": "📚拾光┃玉米",
-      "type": 0,
-      "api": "http://124.222.116.5/macos/api.php/provide/vod/at/xml/",
-      "playUrl": "json:http://110.42.3.71:5000/api/jiexi/common?Key=scR2SCxYQGqNWKLltR&url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+    "collect.wolongzyw.com": {
+      "name": "🎬卧龙影视",
+      "api": "https://move.iptvlive.icu/?url=https://collect.wolongzyw.com/api.php/provide/vod",
+      "detail": "https://collect.wolongzyw.com"
     },
-		    {
-      "key": "看了么",
-      "name": "📚拾光┃小鼠",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/看了吗.json"
+    "jszyapi.com": {
+      "name": "🎬极速资源",
+      "api": "https://move.iptvlive.icu/?url=https://jszyapi.com/api.php/provide/vod",
+      "detail": "https://jszyapi.com"
     },
-	    {
-      "key": "zxzj",
-      "name": "📚拾光┃外剧",
-      "type": 3,
-      "api": "csp_Zxzj",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://www.zxzj.pro/"
+    "www.moduzy.net": {
+      "name": "🎬魔都资源",
+      "api": "https://move.iptvlive.icu/?url=https://www.mdzyapi.com/api.php/provide/vod",
+      "detail": "https://www.moduzy.net"
     },
-	        {
-      "key": "lurenjia",
-      "name": "📚拾光┃路人",
-      "type": 1,
-      "api": "http://dytt996.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playUrl": "json:http://106.53.99.43:84/lzff.php?url="
+    "ffzyapi.com": {
+      "name": "🎬非凡资源",
+      "api": "https://move.iptvlive.icu/?url=https://api.ffzyapi.com/api.php/provide/vod",
+      "detail": "https://cj.ffzyapi.com"
     },
-        {
-            "key": "一起看 ",
-            "name": "📚拾光┃一起看",
-            "type": 3,
-            "api": "csp_YQKan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-{
-      "key": "csp_XYQHiker_锐行加速影院",
-      "name": "📚拾光┃锐行",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://pan.shangui.cc/f/Bloip/%E9%94%90%E8%A1%8C%E5%8A%A0%E9%80%9F%E5%BD%B1%E9%99%A2.json",
-      "jar": "https://pan.shangui.cc/f/d5vLfo/xyq723.jar;md5;431809c4e972554e50c3ffeddf177344"
+    "bfzy.tv": {
+      "name": "🎬暴风资源",
+      "api": "https://move.iptvlive.icu/?url=https://bfzyapi.com/api.php/provide/vod",
+      "detail": "https://bfzy.tv"
     },
- {
-      "key": "csp_XYQHiker_奇趣影院",
-      "name": "📚拾光┃奇趣",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://pan.shangui.cc/f/0D48hj/%E5%A5%87%E8%B6%A3%E5%BD%B1%E8%A7%86.json",
-      "jar": "https://pan.shangui.cc/f/d5vLfo/xyq723.jar;md5;431809c4e972554e50c3ffeddf177344"
+    "zuida.xyz": {
+      "name": "🎬最大资源",
+      "api": "https://move.iptvlive.icu/?url=https://api.zuidapi.com/api.php/provide/vod",
+      "detail": "https://zuida.xyz"
     },
- {
-      "key": "csp_XYQHiker_电影牛影院",
-      "name": "📚拾光┃影牛",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://pan.shangui.cc/f/jX7s7/%E7%94%B5%E5%BD%B1%E7%89%9B%E5%BD%B1%E9%99%A2.json",
-      "jar": "https://pan.shangui.cc/f/d5vLfo/xyq723.jar;md5;431809c4e972554e50c3ffeddf177344"
+    "zuidazy.co": {
+      "name": "🎬最大点播",
+      "api": "https://move.iptvlive.icu/?url=https://zuidazy.me/api.php/provide/vod",
+      "detail": "https://zuidazy.co"
     },
-                {
-            "key": "索尼资源",
-            "name": "📚拾光┃索尼",
-            "type": 1,
-            "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/",
-            "categories": [
-                "动作片",
-                "喜剧片",
-                "爱情片",
-                "科幻片",
-                "恐怖片",
-                "剧情片",
-                "战争片",
-                "国产剧",
-                "欧美剧",
-                "韩剧",
-                "日剧",
-                "港剧",
-                "台剧",
-                "泰剧",
-                "海外剧",
-                "纪录片",
-                "大陆综艺",
-                "日韩综艺",
-                "港台综艺",
-                "欧美综艺",
-                "国产动漫",
-                "日韩动漫",
-                "欧美动漫",
-                "动画片",
-                "港台动漫",
-                "海外动漫",
-                "演唱会",
-                "体育赛事",
-                "篮球",
-                "足球",
-                "预告片",
-                "斯诺克",
-                "影视解说"
-            ],
-            "searchable": 1,
-            "quickSearch": 1
-        },
-        {
-            "key": "Cokemv",
-            "name": "📚拾光┃可乐",
-            "type": 3,
-            "api": "csp_Cokemv",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "csp_SP33",
-            "name": "📚拾光┃三三",
-            "type": 3,
-            "api": "csp_SP33",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0
-        },
-    {
-      "key": "百度资源",
-      "name": "📚拾光┃百度",
-      "type": 1,
-      "api": "https://api.apibdzy.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "categories": [
-        "大陆剧",
-        "战争片",
-        "动作片",
-        "喜剧片"
-      ]
+    "wujinzy.me": {
+      "name": "🎬无尽资源",
+      "api": "https://move.iptvlive.icu/?url=https://api.wujinapi.me/api.php/provide/vod",
+      "detail": "https://wujinzy.com"
     },
-        {
-            "key": "88js",
-            "name": "📚拾光┃88看球",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/88看球.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "555dy_open",
-            "name": "📚拾光┃555影视",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/555dy_open.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-	    {
-            "key": "csp_qiumi",
-            "name": "📚拾光┃球迷直播",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/jrk.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-			                        {
-      "key": "drpy_js_短剧网",
-      "name": "📚拾光┃短剧网",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/短剧网.js"
+    "wujinzy.com": {
+      "name": "🎬无尽影视",
+      "api": "https://move.iptvlive.icu/?url=https://api.wujinapi.com/api.php/provide/vod",
+      "detail": "https://wujinzy.com"
     },
-    {
-      "key": "戏曲杂苑",
-      "name": "📚拾光┃戏曲网",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/哔哩戏曲.json"
+    "xinlangapi.com": {
+      "name": "🎬新浪资源",
+      "api": "https://move.iptvlive.icu/?url=https://api.xinlangapi.com/xinlangapi.php/provide/vod",
+      "detail": "https://xinlangapi.com"
     },
-    {
-      "key": "相声小品",
-      "name": "📚拾光┃相声小品",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/哔哩相声.json"
+    "wwzy.tv": {
+      "name": "🎬旺旺短剧",
+      "api": "https://move.iptvlive.icu/?url=https://wwzy.tv/api.php/provide/vod",
+      "detail": "https://wwzy.tv"
     },
-        {
-            "key": "MV_vod",
-            "name": "📚拾光┃20万MV",
-            "type": 1,
-            "api": "https://mv.wogg.link/mv/vod",
-            "style": {
-                "type": "oval"
-            },
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "酷奇js",
-            "name": "📚拾光┃酷奇MV",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/酷奇MV.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "YiSo",
-            "name": "📚拾光┃易搜",
-            "type": 3,
-            "api": "csp_YiSo",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": "http://127.0.0.1:9978/file/tvboxqq/token.txt+4k|auto|fhd"
-        },
-        {
-            "key": "PanSou",
-            "name": "📚拾光┃盘搜",
-            "type": 3,
-            "api": "csp_PanSou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": "http://127.0.0.1:9978/file/tvboxqq/token.txt+4k|auto|fhd"
-        },
-        {
-            "key": "UpYun",
-            "name": "📚拾光┃Up搜",
-            "type": 3,
-            "api": "csp_UpYun",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": "http://127.0.0.1:9978/file/tvboxqq/token.txt+4k|auto|fhd"
-        },
-        {
-            "key": "七夜",
-            "name": "📚拾光┃七夜",
-            "type": 3,
-            "api": "csp_Dovx",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": "http://127.0.0.1:9978/file/tvboxqq/token.txt+4k|auto|fhd"
-        },
-        {
-            "key": "Bili",
-            "name": "📚拾光┃哔哩合集",
-            "type": 3,
-            "api": "csp_Bili",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": "./json/bilibili.json"
-        },
-        {
-            "key": "dr_兔小贝",
-            "name": "📚拾光┃教育启蒙",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/兔小贝.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "少儿教育",
-            "name": "📚拾光┃教育儿童",
-            "type": 3,
-            "api": "csp_Bili",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": "./json/少儿教育.json"
-        },
-        {
-            "key": "小学课堂",
-            "name": "📚拾光┃教育小学",
-            "type": 3,
-            "api": "csp_Bili",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": "./json/小学课堂.json"
-        },
-        {
-            "key": "初中课堂",
-            "name": "📚拾光┃教育初中",
-            "type": 3,
-            "api": "csp_Bili",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": "./json/初中课堂.json"
-        },
-        {
-            "key": "高中教育",
-            "name": "📚拾光┃教育高中",
-            "type": 3,
-            "api": "csp_Bili",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": "./json/高中课堂.json"
-        },
-        {
-            "key": "ext_live_protocol",
-            "name": "🐼【关注公众号：拾光畅谈】🐼",
-            "type": 3,
-            "api": "csp_XPath",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "cc",
-            "name": "请勿相信视频中任何广告",
-            "type": 3,
-            "api": "csp_XPath",
-            "searchable": 0,
-            "quickSearch": 0
-        }
-    ],
+    "api.wwzy.tv": {
+      "name": "🎬旺旺资源",
+      "api": "https://move.iptvlive.icu/?url=https://api.wwzy.tv/api.php/provide/vod",
+      "detail": "https://api.wwzy.tv"
+    },
+    "www.subozy.com": {
+      "name": "🎬速播资源",
+      "api": "https://move.iptvlive.icu/?url=https://subocaiji.com/api.php/provide/vod",
+      "detail": "https://www.subozy.com"
+    },
+    "jinyingzy.com": {
+      "name": "🎬金鹰点播",
+      "api": "https://move.iptvlive.icu/?url=https://jinyingzy.com/api.php/provide/vod",
+      "detail": "https://jinyingzy.com"
+    },
+    "p2100.net": {
+      "name": "🎬飘零资源",
+      "api": "https://move.iptvlive.icu/?url=https://p2100.net/api.php/provide/vod",
+      "detail": "https://p2100.net"
+    },
+    "api.ukuapi88.com": {
+      "name": "🎬U酷影视",
+      "api": "https://move.iptvlive.icu/?url=https://api.ukuapi88.com/api.php/provide/vod",
+      "detail": "https://www.ukuzy.com"
+    },
+    "api.guangsuapi.com": {
+      "name": "🎬光速资源",
+      "api": "https://move.iptvlive.icu/?url=https://api.guangsuapi.com/api.php/provide/vod",
+      "detail": "https://api.guangsuapi.com"
+    },
+    "www.hongniuzy.com": {
+      "name": "🎬红牛资源",
+      "api": "https://move.iptvlive.icu/?url=https://www.hongniuzy2.com/api.php/provide/vod",
+      "detail": "https://www.hongniuzy.com"
+    },
+    "caiji.moduapi.cc": {
+      "name": "🎬魔都动漫",
+      "api": "https://move.iptvlive.icu/?url=https://caiji.moduapi.cc/api.php/provide/vod",
+      "detail": "https://caiji.moduapi.cc"
+    },
+    "www.ryzyw.com": {
+      "name": "🎬如意资源",
+      "api": "https://move.iptvlive.icu/?url=https://cj.rycjapi.com/api.php/provide/vod",
+      "detail": "https://www.ryzyw.com"
+    },
+    "www.haohuazy.com": {
+      "name": "🎬豪华资源",
+      "api": "https://move.iptvlive.icu/?url=https://hhzyapi.com/api.php/provide/vod",
+      "detail": "https://www.haohuazy.com"
+    },
+    "bdzy1.com": {
+      "name": "🎬百度云zy",
+      "api": "https://move.iptvlive.icu/?url=https://api.apibdzy.com/api.php/provide/vod",
+      "detail": "https://bdzy1.com"
+    },
+    "zy.sh0o.cn": {
+      "name": "🎬山海资源",
+      "api": "https://move.iptvlive.icu/?url=https://zy.sh0o.cn/api.php/provide/vod",
+      "detail": "https://zy.sh0o.cn"
+    },
+    "1080zyk4.com": {
+      "name": "🎬优质资源",
+      "api": "https://move.iptvlive.icu/?url=https://api.yzzy-api.com/inc/apijson.php",
+      "detail": "https://1080zyk4.com"
+    },
+    "jazy": {
+      "name": "🎬建安资源",
+      "api": "https://move.iptvlive.icu/?url=http://154.219.117.232:9981/jacloudapi.php/provide/vod",
+      "detail": "http://154.219.117.232:9981"
+    },
+    "www.huyaapi.com": {
+      "name": "🎬虎牙资源",
+      "api": "https://move.iptvlive.icu/?url=https://www.huyaapi.com/api.php/provide/vod",
+      "detail": "https://www.huyaapi.com"
+    },
+    "yayazy3.com": {
+      "name": "🎬鸭鸭资源",
+      "api": "https://move.iptvlive.icu/?url=https://cj.yayazy.net/api.php/provide/vod",
+      "detail": "https://yayazy3.com"
+    },
+    "suonizy.net": {
+      "name": "🎬索尼资源",
+      "api": "https://move.iptvlive.icu/?url=https://suoniapi.com/api.php/provide/vod",
+      "detail": "https://suonizy.net"
+    },
+    "kuaichezy.com": {
+      "name": "🎬快车资源",
+      "api": "https://move.iptvlive.icu/?url=https://caiji.kuaichezy.org/api.php/provide/vod",
+      "detail": "https://kuaichezy.com"
+    },
+    "shandianzy.com": {
+      "name": "🎬闪电资源",
+      "api": "https://move.iptvlive.icu/?url=https://xsd.sdzyapi.com/api.php/provide/vod",
+      "detail": "https://shandianzy.com"
+    },
+    "yhzy.cc": {
+      "name": "🎬樱花资源",
+      "api": "https://move.iptvlive.icu/?url=https://m3u8.apiyhzy.com/api.php/provide/vod",
+      "detail": "https://yhzy.cc"
+    },
+    "91md.me": {
+      "name": "🔞麻豆视频",
+      "api": "https://move.iptvlive.icu/?url=https://91md.me/api.php/provide/vod",
+      "detail": "https://91md.me"
+    },
+    "91jpzyw.com": {
+      "name": "🔞91-精品-",
+      "api": "https://move.iptvlive.icu/?url=https://91jpzyw.com/api.php/provide/vod",
+      "detail": "https://91jpzyw.com"
+    },
+    "lbapiby.com": {
+      "name": "🔞--AIvin-",
+      "api": "https://move.iptvlive.icu/?url=http://lbapiby.com/api.php/provide/vod",
+      "detail": "http://lbapiby.com"
+    },
+    "api.bwzym3u8.com": {
+      "name": "🔞百万资源",
+      "api": "https://move.iptvlive.icu/?url=https://api.bwzyz.com/api.php/provide/vod",
+      "detail": "https://api.bwzym3u8.com"
+    },
+    "api.souavzy.vip": {
+      "name": "🔞souavZY",
+      "api": "https://move.iptvlive.icu/?url=https://api.souavzy.vip/api.php/provide/vod",
+      "detail": "https://api.souavzy.vip"
+    },
+    "155zy2.com": {
+      "name": "🔞155-资源",
+      "api": "https://move.iptvlive.icu/?url=https://155api.com/api.php/provide/vod",
+      "detail": "https://155zy2.com"
+    },
+    "apiyutu.com": {
+      "name": "🔞玉兔资源",
+      "api": "https://move.iptvlive.icu/?url=https://apiyutu.com/api.php/provide/vod",
+      "detail": "https://apiyutu.com"
+    },
+    "fhapi9.com": {
+      "name": "🔞番号资源",
+      "api": "https://move.iptvlive.icu/?url=http://fhapi9.com/api.php/provide/vod",
+      "detail": "http://fhapi9.com"
+    },
+    "www.jingpinx.com": {
+      "name": "🔞精品资源",
+      "api": "https://move.iptvlive.icu/?url=https://www.jingpinx.com/api.php/provide/vod",
+      "detail": "https://www.jingpinx.com"
+    },
+    "apilsbzy1.com": {
+      "name": "🔞-老色逼-",
+      "api": "https://move.iptvlive.icu/?url=https://apilsbzy1.com/api.php/provide/vod",
+      "detail": "https://apilsbzy1.com"
+    },
+    "thzy8.me": {
+      "name": "🔞桃花资源",
+      "api": "https://move.iptvlive.icu/?url=https://thzy1.me/api.php/provide/vod",
+      "detail": "https://thzy8.me"
+    },
+    "www.yyzywcj.com": {
+      "name": "🔞优优资源",
+      "api": "https://move.iptvlive.icu/?url=https://www.yyzywcj.com/api.php/provide/vod",
+      "detail": "https://www.yyzywcj.com"
+    },
+    "xiaojizy.live": {
+      "name": "🔞小鸡资源",
+      "api": "https://move.iptvlive.icu/?url=https://api.xiaojizy.live/provide/vod",
+      "detail": "https://xiaojizy.live"
+    },
+    "hsckzy.xyz": {
+      "name": "🔞黄色仓库",
+      "api": "https://move.iptvlive.icu/?url=https://hsckzy.xyz/api.php/provide/vod",
+      "detail": "https://hsckzy.xyz"
+    },
+    "apidanaizi.com": {
+      "name": "🔞-大奶子-",
+      "api": "https://move.iptvlive.icu/?url=https://apidanaizi.com/api.php/provide/vod",
+      "detail": "https://apidanaizi.com"
+    },
+    "jkunzyapi.com": {
+      "name": "🔞jkun资源",
+      "api": "https://move.iptvlive.icu/?url=https://jkunzyapi.com/api.php/provide/vod",
+      "detail": "https://jkunzyapi.com"
+    },
+    "lbapi9.com": {
+      "name": "🔞乐播资源",
+      "api": "https://move.iptvlive.icu/?url=https://lbapi9.com/api.php/provide/vod",
+      "detail": "https://lbapi9.com"
+    },
+    "Naixxzy.com": {
+      "name": "🔞奶香资源",
+      "api": "https://move.iptvlive.icu/?url=https://Naixxzy.com/api.php/provide/vod",
+      "detail": "https://Naixxzy.com"
+    },
+    "slapibf.com": {
+      "name": "🔞森林资源",
+      "api": "https://move.iptvlive.icu/?url=https://beiyong.slapibf.com/api.php/provide/vod",
+      "detail": "https://slapibf.com"
+    },
+    "apilj.com": {
+      "name": "🔞辣椒资源",
+      "api": "https://move.iptvlive.icu/?url=https://apilj.com/api.php/provide/vod",
+      "detail": "https://apilj.com"
+    },
+    "shayuapi.com": {
+      "name": "🔞鲨鱼资源",
+      "api": "https://move.iptvlive.icu/?url=https://shayuapi.com/api.php/provide/vod",
+      "detail": "https://shayuapi.com"
+    },
+    "xzytv.com": {
+      "name": "🔞-幸资源-",
+      "api": "https://move.iptvlive.icu/?url=https://xzybb2.com/api.php/provide/vod",
+      "detail": "https://xzytv.com"
+    },
+    "zuisezy.com": {
+      "name": "🔞最色资源",
+      "api": "https://move.iptvlive.icu/?url=https://api.zuiseapi.com/api.php/provide/vod",
+      "detail": "https://zuisezy.com"
+    },
+    "doudouzy.com": {
+      "name": "🔞豆豆资源",
+      "api": "https://move.iptvlive.icu/?url=https://api.douapi.cc/api.php/provide/vod",
+      "detail": "https://doudouzy.com"
+    },
+    "didizy.com": {
+      "name": "🔞滴滴资源",
+      "api": "https://move.iptvlive.icu/?url=https://api.ddapi.cc/api.php/provide/vod",
+      "detail": "https://didizy.com"
+    },
+    "api.sexnguon.com": {
+      "name": "🔞-色南国-",
+      "api": "https://move.iptvlive.icu/?url=https://api.sexnguon.com/api.php/provide/vod",
+      "detail": "https://api.sexnguon.com"
+    },
+    "ckzy.me": {
+      "name": "🔞 CK-资源",
+      "api": "https://move.iptvlive.icu/?url=https://ckzy.me/api.php/provide/vod",
+      "detail": "https://ckzy.me"
+    },
+    "www.xxibaozyw.com": {
+      "name": "🔞细胞资源",
+      "api": "https://move.iptvlive.icu/?url=https://www.xxibaozyw.com/api.php/provide/vod",
+      "detail": "https://www.xxibaozyw.com"
+    },
+    "xiangjiaozyw.com": {
+      "name": "🔞香蕉资源",
+      "api": "https://move.iptvlive.icu/?url=https://www.xiangjiaozyw.com/api.php/provide/vod",
+      "detail": "https://www.xiangjiaozyw.com"
+    },
+    "xingba111.com": {
+      "name": "🔞杏吧资源",
+      "api": "https://move.iptvlive.icu/?url=https://xingba222.com/api.php/provide/vod",
+      "detail": "https://xingba111.com"
+    },
+    "www.msnii.com": {
+      "name": "🔞-美少女-",
+      "api": "https://move.iptvlive.icu/?url=https://www.msnii.com/api/json.php",
+      "detail": "https://www.msnii.com"
+    },
+    "www.pgxdy.com": {
+      "name": "🔞-黄AVZY",
+      "api": "https://move.iptvlive.icu/?url=https://www.pgxdy.com/api/json.php",
+      "detail": "https://www.pgxdy.com"
+    },
+    "www.kxgav.com": {
+      "name": "🔞白嫖资源",
+      "api": "https://move.iptvlive.icu/?url=https://www.kxgav.com/api/json.php",
+      "detail": "https://www.kxgav.com"
+    },
+    "dadizy11.com": {
+      "name": "🔞大地资源",
+      "api": "https://move.iptvlive.icu/?url=https://dadiapi.com/feifei",
+      "detail": "https://dadizy11.com"
+    },
+    "semaozy1.com": {
+      "name": "🔞色猫资源",
+      "api": "https://move.iptvlive.icu/?url=https://caiji.semaozy.net/inc/apijson_vod.php/provide/vod",
+      "detail": "https://semaozy1.com"
+    },
+    "aosikazy.com": {
+      "name": "🔞-奥斯卡-",
+      "api": "https://move.iptvlive.icu/?url=https://aosikazy.com/api.php/provide/vod",
+      "detail": "https://aosikazy.com"
+    },
+    "siwazyw.tv": {
+      "name": "🔞丝袜资源",
+      "api": "https://move.iptvlive.icu/?url=https://siwazyw.tv/api.php/provide/vod",
+      "detail": "https://siwazyw.tv"
+    }
+  ]
+
 //=========解析嗅探====================================================
 "parses": [
 {"name":"拾光m3u8嗅探","type":0,"url":"https://jx.m3u8.tv/jiexi/?url=","ext": {"flag": ["qq","腾讯","qiyi","iqiyi","爱奇艺","奇艺","youku","yk","优
